@@ -48,6 +48,73 @@ a:hover {
 /*---------------------
 header
 ---------------------*/
+.header {
+  background-color: #1B1310;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 120px;
+  height: 74px;
+}
+
+.header .site-title {
+  font-size: 2.6rem;
+}
+
+.header .header-nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.header .header-nav .nav-list .nav-item {
+  margin-left: 55px;
+}
+
+.header .header-nav .nav-list .nav-item:first-of-type {
+  margin-left: 0;
+}
+
+.header .burger-btn {
+  display: none;
+}
+
+/*---------------------
+fv
+---------------------*/
+.fv {
+  background-image: url(../img/fv-bgi@2x.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fv .main-copy {
+  color: #fff;
+  font-size: 5rem;
+  border: 2px solid #fff;
+  padding: 35px 42px;
+  line-height: 1;
+}
+
 /*---------------------
 main
 ---------------------*/
