@@ -248,4 +248,32 @@ footer
   text-align: center;
   padding: 30px 0;
 }
+
+/*---------------------
+import
+---------------------*/
+@media screen and (max-width: 768px) {
+  /*---------------------
+    Base
+    ---------------------*/
+  .wrapper .section-wrapper {
+    padding: 0 4vw;
+  }
+  .wrapper .section-wrapper .content-title {
+    font-size: 2rem;
+    margin-bottom: 34px;
+  }
+  /*---------------------
+    header
+    ---------------------*/
+  /*---------------------
+    Base
+    ---------------------*/
+  /*---------------------
+    Base
+    ---------------------*/
+  /*---------------------
+    Base
+    ---------------------*/
+}
 /*# sourceMappingURL=style.css.map */
