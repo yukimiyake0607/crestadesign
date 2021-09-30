@@ -37,6 +37,12 @@ a:hover {
   text-align: center;
 }
 
+.wrapper .section-wrapper .content-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
 .wrapper .section-wrapper:first-of-type {
   margin-top: 100px;
 }
@@ -116,7 +122,52 @@ fv
 }
 
 /*---------------------
-main
+about
+---------------------*/
+#about .about-text {
+  font-weight: bold;
+}
+
+/*---------------------
+service
+---------------------*/
+#service .content-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#service .content-inner .img-wrapper {
+  max-width: 480px;
+}
+
+#service .content-inner .text-wrapper {
+  max-width: 480px;
+}
+
+#service .content-inner .text-wrapper .content-text {
+  font-weight: bold;
+}
+
+#service .content-inner:first-of-type {
+  margin-bottom: 50px;
+}
+
+#service .reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+/*---------------------
+news
 ---------------------*/
 /*---------------------
 footer

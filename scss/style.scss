@@ -29,6 +29,11 @@ a:hover{
             margin-bottom: 70px;
             text-align: center;
         }
+        .content-title{
+            font-size: 2.4rem;
+            font-weight: bold;
+            margin-bottom: 45px;
+        }
         &:first-of-type{
             margin-top: 100px;
         }
@@ -94,8 +99,46 @@ fv
 
 
 /*---------------------
-main
+about
 ---------------------*/
+#about{
+    .about-text{
+        font-weight: bold;
+    }
+}
+
+
+/*---------------------
+service
+---------------------*/
+#service{
+    .content-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .img-wrapper{
+            max-width: 480px;
+        }
+        .text-wrapper{
+            max-width: 480px;
+            .content-text{
+                font-weight: bold;
+            }
+        }
+        &:first-of-type{
+            margin-bottom: 50px;
+        }
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+}
+
+
+/*---------------------
+news
+---------------------*/
+
 
 
 /*---------------------
