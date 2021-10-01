@@ -18,6 +18,9 @@ img{
 a:hover{
     opacity: .7;
 }
+.noscroll{
+    overflow: hidden;
+}
 
 .wrapper{
     max-width: 1030px;
@@ -171,9 +174,13 @@ contact
             }
             input{
                 border: 1px solid #141414;
+                line-height: 2;
+                font-size: 1.6rem;
             }
             textarea{
                 border: 1px solid #141414;
+                line-height: 2;
+                font-size: 1.6rem;
             }
         }
         .form-send{

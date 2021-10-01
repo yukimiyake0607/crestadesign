@@ -18,14 +18,16 @@
     <!-- header -->
     <header class="header">
         <h1 class="site-title">クリ☆スタ</h1>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#service">Service</a></li>
-                <li class="nav-item"><a href="#news">News</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-wrapper">
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#service">Service</a></li>
+                    <li class="nav-item"><a href="#news">News</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <button class="burger-btn">            
             <span class="bar bar-top"></span>
             <span class="bar bar-mid"></span>
@@ -61,10 +63,7 @@
             <!-- service -->
             <section class="section-wrapper" id="service">
                 <h2 class="section-title">Service</h2>
-                <div class="content-inner">
-                    <div class="img-wrapper">
-                        <img src="./img/service-image@2x.jpg" alt="黒いカメラの写真です">
-                    </div>
+                <div class="content-inner reverse">
                     <div class="text-wrapper">
                         <h3 class="content-title">リリース時のサポートで<br>
                             サービスのブランディングを</h3>
@@ -72,11 +71,11 @@
                             弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
                         </p>
                     </div>
-                </div>
-                <div class="content-inner reverse">
                     <div class="img-wrapper">
-                        <img src="./img/service-image02@2x.jpg" alt="黒いスマホの写真です">
+                        <img src="./img/service-image@2x.jpg" alt="黒いカメラの写真です">
                     </div>
+                </div>
+                <div class="content-inner">
                     <div class="text-wrapper">
                         <h3 class="content-title">
                             リリース後のサポートで<br>
@@ -85,6 +84,9 @@
                         <p class="content-text">
                             弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
                         </p>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./img/service-image02@2x.jpg" alt="黒いスマホの写真です">
                     </div>
                 </div>
             </section>
